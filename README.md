@@ -1,46 +1,28 @@
-# Getting Started with Create React App
+# 개인 블로그 플랫폼 개요서
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 프로젝트 명
+hoonlog
 
-## Available Scripts
+## 프로젝트 목표
+hoonlog는 나만의 개인 블로그를 운영하기 위한 간단하면서도 효과적인 플랫폼을 개발하는 프로젝트입니다. 개인적인 기술적인 경험과 생각을 기록하며, 누군가와 소통할 수 있는 간단한 환경을 제공합니다.
 
-In the project directory, you can run:
+## 핵심 기능
+1. **글 작성 및 편집:**
+   - 간편하게 글을 작성하고 수정할 수 있습니다.
 
-### `npm start`
+2. **글 카테고리:**
+   - 글은 사용자가 지정한 카테고리에 속하게 됩니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3. **댓글:**
+   - 사용자들은 글에 댓글을 남길 수 있습니다.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+4. **간단한 사용자 프로필:**
+   - 사용자는 자신의 닉네임과 간단한 소개글을 설정할 수 있습니다.
 
-### `npm test`
+5. **인증 없이 사용 가능:**
+   - 간단한 사용을 위해 사용자 인증이 필요하지 않습니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+이 문서는 ChatGPT를 활용하여 생성되었습니다.
+```
