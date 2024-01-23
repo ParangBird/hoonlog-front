@@ -4,18 +4,28 @@ type Props = {}
 
 export default function About({}: Props) {
   return (
-    <>
-      <hr className="mx-auto m-1 h-10"/>
-      <div>Hello, I'm web developer</div>      
-      <div className="flex justify-end h-full bg-pink-400">
-        <div className="inline h-8 w-1/3 bg-red-400">
-          <h2 className="text-2xl text-blue-500">About me</h2>
+    <>      
+      <p className="mx-auto m-1 h-10 bg-white"/>
+      <p className="text-6xl">HELLO THERE !</p>
+      <p className="text-4xl">I'm Hwanhoon, a web developer.</p>
+      <p className="mx-auto m-1 h-10 bg-white"/>
+      <div className="">
+        <div className="h-36 bg-slate-500">
+          Picture Zone..
         </div>
-        <div className="w-1/3 bg-teal-400">
-          Something picture
+        <div className="mx-auto">
+          <h2 className="text-4xl text-green-400">About me</h2>
+          <p>I am Hwanhoon-Jung, a web full-stack developer living in South Korea.</p>
+          <p>With expertise in both front-end and back-end technologies, I bring ideas to life through clean, user-friendly code.</p>
+          <p>Let's build something amazing together!</p>
         </div>
-        <div className="w-1/3 bg-blue-400">
-          Details
+        <br/>
+        <br/>
+        <div className="flex flex-col items-center text-left">
+          <div>
+            <p>Email : donchipong@naver.com</p>
+            <p>Github : 깃허브링크</p>
+          </div>
         </div>
       </div>
     </>        
