@@ -2,11 +2,11 @@ import { Link, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
 import About from './pages/About';
-
+import AdminLogin from './pages/AdminLogin';
 function App() {  
   return (    
-    <div className="App">      
-      <div>
+    <div className="App">              
+      <div>      
         <nav className="m-0 p-0 bg-red-400 border-gray-200 dark:bg-gray-900">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
@@ -24,7 +24,7 @@ function App() {
                 <li>
                   <Link to="/home" className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</Link>
                 </li>
-                <li>
+                <li>                  
                   <Link to="/blog" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Blog</Link>
                 </li>
                 <li>
@@ -32,6 +32,9 @@ function App() {
                 </li>
                 <li>
                   <Link to="/thoughts" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Thoughts</Link>
+                </li>
+                <li>
+                <Link to="/admin" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Admin</Link>
                 </li>
               </ul>
             </div>
@@ -41,6 +44,7 @@ function App() {
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/admin" element={<AdminLogin />} />
       </Routes>
     </div>    
   );
